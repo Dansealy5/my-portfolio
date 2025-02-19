@@ -1,0 +1,61 @@
+.header {
+    position: sticky;
+    top: 0;
+    padding: 15px 20px;
+    background-color: gray;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    outline: solid black;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.list-top {
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+    text-align: left;
+}
+
+.list-bot {
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+#top {
+    background-color: rgb(126, 243, 243);
+}
+
+#bot {
+    background-color: rgb(126, 243, 243);
+}
+
+img {
+    height: 300px;
+}
+
+video {
+    margin: 20px;
+}
+
+h2 {
+    border: dashed;
+    padding: 20px;
+    text-align: center;
+}
+
+.games-pic {
+    text-align: center;
+}
+
+.hockey-pic {
+    text-align: center;
+}
