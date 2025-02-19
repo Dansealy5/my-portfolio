@@ -59,3 +59,41 @@ h2 {
 .hockey-pic {
     text-align: center;
 }
+
+.first {
+    border: solid;
+    display: inline-block;
+}
+
+.first-pic {
+    text-align: center;
+}
+
+.first-pic img{
+    height: 200px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.second {
+    border: solid;
+    text-align: left;
+}
+
+.second-pic {
+    text-align: center;
+}
+
+.second-pic img {
+    height: 200px;
+}
+
+html {
+    background-color: rgb(80, 255, 118);
+}
+
+h2 {
+    background-color: gold;
+}
