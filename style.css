@@ -11,6 +11,7 @@
 
 h1 {
     font-size: 40px;
+    text-align: center;
 }
 
 .list-top {
@@ -20,6 +21,7 @@ h1 {
     padding-bottom: 5px;
     margin: 20px;
     text-align: left;
+    max-width: 50%;
 }
 
 .list-bot {
@@ -28,6 +30,7 @@ h1 {
     padding-left: 5px;
     padding-bottom: 5px;
     text-align: left;
+    max-width: 50%;
 }
 
 #top {
@@ -40,6 +43,7 @@ h1 {
 
 img {
     height: 300px;
+    margin: 20px;
 }
 
 video {
@@ -91,9 +95,32 @@ h4 {
 }
 
 html {
-    background-color: rgb(80, 255, 118);
+    background-color: rgb(9, 160, 140);
 }
 
 h2 {
     background-color: gold;
+}
+
+main {
+    margin: 10px 100px;
+    background-color: rgb(0, 255, 242);
+    padding: 80px, 20px, 100px;
+    unicode-bidi: isolate;
+    height: 100%;
+    box-shadow: 0 0 12px 2px black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    border: solid;
+}
+
+@media(max-width: 650px) {
+    main {
+        zoom: -0.5;
+    }
 }
