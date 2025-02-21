@@ -125,8 +125,24 @@ main {
 }
 
 @media(max-width: 650px) {
-    main {
-        zoom: -0.5;
+    img {
+        height: 100px;
+        width: 200px;
+    }
+    video {
+        height: 100px;
+        width: 200px;
+    }
+}
+
+@media(max-width: 950px) {
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    video {
+        height: 200px;
+        width: 200px;
     }
 }
 
