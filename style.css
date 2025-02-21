@@ -97,3 +97,16 @@ html {
 h2 {
     background-color: gold;
 }
+
+main {
+    background-color: rgb(0, 255, 242);
+    padding: 80px, 20px, 100px;
+    unicode-bidi: isolate;
+    height: 100%;
+    box-shadow: 0 0 12px -2px black;
+}
+
+.container {
+    display: flex;
+    border: solid;
+}
